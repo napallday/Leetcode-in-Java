@@ -1,3 +1,8 @@
+/**
+ * 利用最大堆实现
+ * 每一次remove掉最前面的数，并add最新的数
+ * O(Nlogk)
+ */
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         if(nums==null||nums.length==0||k==1){
